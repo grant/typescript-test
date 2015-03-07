@@ -1,0 +1,19 @@
+{
+  "name": "typescript-test",
+  "version": "1.0.0",
+  "description": "Test of typescript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/grant/typescript-test.git"
+  },
+  "author": "Grant Timmerman",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/grant/typescript-test/issues"
+  },
+  "homepage": "https://github.com/grant/typescript-test"
+}
