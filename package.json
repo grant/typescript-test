@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/grant/typescript-test/issues"
   },
-  "homepage": "https://github.com/grant/typescript-test"
+  "homepage": "https://github.com/grant/typescript-test",
+  "devDependencies": {
+    "typescript": "^1.4.1"
+  }
 }
