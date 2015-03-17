@@ -6,3 +6,4 @@ app/*.js
 app/*/*.js
 app/*/*/*.js
 **/*.log
+typings/

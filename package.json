@@ -18,5 +18,9 @@
   "homepage": "https://github.com/grant/typescript-test",
   "devDependencies": {
     "typescript": "^1.4.1"
+  },
+  "dependencies": {
+    "react": "^0.13.1",
+    "typed-react": "^3.3.1"
   }
 }
