@@ -4,7 +4,18 @@
   "description": "Test of typescript",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc src/Timer.ts --module commonjs; mkdir -p build; browserify -t [ reactify --es6 --target es5 ] src/Timer.js > build/build.js"
+  },
+  "browserify": {
+    "transform": [
+      [
+        "reactify",
+        {
+          "es6": true
+        }
+      ]
+    ]
   },
   "repository": {
     "type": "git",
@@ -17,6 +28,7 @@
   },
   "homepage": "https://github.com/grant/typescript-test",
   "devDependencies": {
+    "reactify": "^1.1.0",
     "typescript": "^1.4.1"
   },
   "dependencies": {

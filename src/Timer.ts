@@ -12,4 +12,4 @@ var HelloMessage = React.createClass({displayName: "HelloMessage",
     }
 });
 
-React.render(React.createElement(HelloMessage, {name: "John"}), document.body);
+React.render(React.createElement(HelloMessage, {name: "Person"}), document.body);
