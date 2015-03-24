@@ -1,2 +1,3 @@
-# typescript-test
-Testing out the power of typescript
+# Typescript Test
+
+Testing out the power of typescript. React surprisingly works well.
